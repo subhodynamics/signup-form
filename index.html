@@ -8,6 +8,68 @@
     <title>Sign up | Mypage</title>
 </head>
 <body>
+    <div class="container">
+
+        <div class="left">
+            <div class="side-pic">
+                <div class="banner">
+                    <img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5f37d43908ef92499e95a9b90fc3cc291a95014c/html_css/project-sign-up-form/odin-lined.png" alt="" class="logo">
+                    <span>ODIN</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="right">
+
+            <div class="header">
+                <p>This is not a real online service! You know you need something</p>
+                <p>like this in your life to help you realize your deepest dreams.</p>
+                <p style="margin-bottom: 20px;">Sign up <em>now</em> to get started.</p>
+                <p>You <em>know</em> you want to.</p>
     
+                <div class="theform">
+                    <h2>Let's do this</h2>
+                    <form action="https://httpbin.org/post" method="post">
+                        <div class="name">
+                            <div class="input-item">
+                                <label for="first-name">FIRST NAME</label>
+                                <input type="text" name="first-name" id="first-name" placeholder="Thor" required>
+                            </div>
+
+
+                            <div class="input-item">
+                                <label for="last-name">LAST NAME</label>
+                                <input type="text" name="last-name" id="last-name" placeholder="Rangarok" required>
+                            </div>
+                        </div>
+
+                        <div class="input-item">
+                            <label for="email">EMAIL</label>
+                            <input type="email" name="email" id="email" placeholder="hello@marvel.com" required>
+                        </div>
+                        
+
+                        <div class="input-item">
+                            <label for="phone-number">PHONE NUMBER</label>
+                            <input type="tel" name="phone-number" id="phone-number" placeholder="9087654321" required>
+                        </div>
+                    
+
+                        <div class="input-item">
+                            <label for="password">PASSWORD</label>
+                            <input type="password" name="password" id="password" required>
+                        </div>
+                  
+
+                        <div class="input-item">
+                            <label for="confirm-password">CONFIRM PASSWORD</label>
+                            <input type="password" name="confirm-password" id="confirm-password" required>
+                        </div>
+                    
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

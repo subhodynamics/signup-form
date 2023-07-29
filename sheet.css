@@ -1,0 +1,63 @@
+@font-face {
+    font-family: norse-bold;
+    src: url(./font/Norse-Bold.otf);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: absolute;
+    background-color: #FFFFFF;
+}
+
+.side-pic {
+    height: 100%;
+    flex-basis: 35vw;
+    background-image: url(/images/4k-Anime-Wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.banner {
+    color: white;
+    height: 15%;
+    width: 50vh;
+    text-align: center;
+    background: rgba(0,0,0,50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: 3em;
+    font-family: norse-bold, sans-serif;
+    letter-spacing: .5em;
+}
+
+.logo {
+    height: 80%;
+}
+
+.header {
+    padding: 50px;
+    border-color: solid 2px red;
+}
+
+.theform {
+    padding-top: 40px;
+}
+
