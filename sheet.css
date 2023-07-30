@@ -28,7 +28,7 @@ body {
 .side-pic {
     height: 100%;
     flex-basis: 35vw;
-    background-image: url(./images/4k-Anime-Wallpaper.jpg);
+    background-image: url(./images/bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     object-fit: cover;
