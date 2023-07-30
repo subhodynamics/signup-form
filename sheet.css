@@ -18,7 +18,7 @@ body {
     height: 100%;
     display: flex;
     position: absolute;
-    background-color: #FFFFFF;
+    background-color: #F5F5F5;
 }
 
 .left {
@@ -27,8 +27,7 @@ body {
 
 .side-pic {
     height: 100%;
-    flex-basis: 35vw;
-    background-image: url(./images/bg.jpg);
+    background-image: url(./images/bg2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     object-fit: cover;
@@ -61,6 +60,14 @@ body {
 }
 
 .theform {
-    padding-top: 40px;
+    background-color: white;
 }
 
+fieldset {
+    padding: 4vh;
+    border: none;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 15%;
+    row-gap: 2vh;
+}
